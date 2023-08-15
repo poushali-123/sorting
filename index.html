@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav>
+            <div class="array_input">
+                <p class="input_header">Array size</p>
+                <input type="range" id="array_size" min=0 max=100 step=1 value="0" class="btn b1">
+               
+                <p class="input_header">Sorting speed</p>
+                <input type="range" id="array_speed" min=1 max=5 step=1 value="0" class="btn b2">
+                
+               <p class="input_header">Bar width</p>
+               <input type="range" id="bar_width" min=2 max=30 step=1 value="4" class="btn b3">
+               
+                <button  id="array_gen" class="genbtn">generate Array</button>
+                <button id="clean" class="b4">Clear</button>
+        
+            </div>
+            <div class="array_button" >
+                <p class="heading ">Sorting Visualizer</p>
+                <div class="algos">
+                    
+                    <button  class="btn1 selection">Selection</button>
+                    <button  class="btn1 insertion">Insertion</button>
+                    <button  class="btn1 bubble">Bubble</button>
+                    <button  class="btn1 heap">Heap</button>
+                    <button  class="btn1 quick">Quick</button>
+                    <button  class="btn1 mergesort">merge</button>
+                </div>
+            </div>
+          
+    </nav>
+        
+    
+    
+    
+    <br>
+   
+    <div id="container">
+
+    </div>
+   
+    <p  id="show"></p>
+   
+    <br>
+
+
+    <script src="main.js"></script>
+    <script src="selection.js"></script>
+    <script src="bubble.js"></script>
+    <script src="insertion.js"></script>
+    <script src="heap.js"></script>
+    <script src="quick.js"></script>
+    <script src="merge.js"></script>
+   
+    
+</body>
+</html>

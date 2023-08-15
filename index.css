@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.array_input{
+    background-color: blueviolet;
+    
+}
+.input_header{
+    color: aliceblue;
+    margin-left: 1rem;
+}
+#array_gen,
+#clean{
+    
+    border-color: black;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+}
+input{
+    margin-left: 2rem; 
+}
+#container{
+    display: flex;
+    height: 350px;
+    align-items: flex-end;
+    
+}
+.bar{
+    background-color: blue;
+    margin: 1px;
+}
+.labelbar{
+    color: rgb(2, 0, 0);
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    margin-top: -10px;
+
+}
+.array_button{
+    background-color: rgb(195, 175, 218);
+}
+.heading{
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    font-weight: bolder;
+}
+.algos{
+    align-items: center;
+    display: inline;
+    margin-left: 1rem;
+}
+.btn1{
+    border-color: black;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    margin-right: 2rem;
+}
+button:hover{
+   background-color: red;
+}
+
+
+
+
+
+
